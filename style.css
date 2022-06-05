@@ -1,0 +1,54 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.result {
+    width: 700px;
+    margin: auto;
+    text-align: center;
+    padding: 25px;
+}
+
+table {
+    width: 100%;
+    border-spacing: 0 10px;
+}
+
+tr, th, td {
+    padding: 10px;
+}
+
+
+th {
+    background-color: blueviolet;
+    color: white;
+}
+
+tr {
+    /* background-color: white; */
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+   
+}
+
+.left-cell {
+    border-radius: 50px 0 0 50px; 
+}
+
+.right-cell {
+    border-radius: 0 50px 50px 0;
+}
+
+
+a {
+    text-decoration: none;
+    background-color: blueviolet;
+    color: white;
+    padding: 3px 12px;
+    border-radius: 25px;
+   
+
+
+}
+
